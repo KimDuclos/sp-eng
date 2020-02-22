@@ -1,0 +1,13 @@
+img {
+    width: 5%;
+    padding-left: 1%;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60%;
+    .navLinkObject {
+        padding: 0 10% 0 0;
+    }
+}
