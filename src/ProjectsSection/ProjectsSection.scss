@@ -1,0 +1,22 @@
+.projectContent {
+  display: flex;
+  .leftProjectContent {
+    width: 45%;
+    .projectTitle {
+      font-size: 34px;
+      margin: 18% 0 0 0;
+      text-align: left;
+    }
+    .projectDescription {
+      font-size: 16px;
+      margin: 2% 0 0 0;
+      text-align: left;
+    }
+  }
+  .rightProjectContent {
+    width: 45%;
+  }
+  img {
+      width: 150px;
+  }
+}
