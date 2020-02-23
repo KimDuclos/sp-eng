@@ -17,7 +17,7 @@ const ProjectSection = () => {
           </div>
         </div>
         <div className="rightProjectContent">
-            <img src="projectImage.jpg" alt="project img" />
+          <img src="projectImage.jpg" alt="project img" />
         </div>
       </div>
     </>

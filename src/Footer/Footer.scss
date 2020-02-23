@@ -1,0 +1,18 @@
+.footerNavLinks {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10% 30% 0 30%;
+    a {
+        text-decoration: none;
+        color: black;
+        visited {
+            color: gray;
+        }
+    }
+}
+
+.copyright {
+    font-size: 8px;
+    margin: 1% 0 0 0;
+}

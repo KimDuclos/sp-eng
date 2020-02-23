@@ -43,9 +43,30 @@ export default function NavBar(props) {
             <img src="stormPeakLogo.png" alt="logo" className="logo" />
             <Typography variant="h4">Storm Peak Engineering</Typography>
             <div className="navLinks">
-              <Typography variant="h6" className="navLinkObject"> About</Typography>
-              <Typography variant="h6" className="navLinkObject"> Projects</Typography>
-              <Typography variant="h6" className="navLinkObject"> Contact</Typography>
+              <Typography
+                variant="h6"
+                className="navLinkObject"
+                style={{ marginRight: "5%" }}
+              >
+                {" "}
+                About
+              </Typography>
+              <Typography
+                variant="h6"
+                className="navLinkObject"
+                style={{ marginRight: "5%" }}
+              >
+                {" "}
+                Projects
+              </Typography>
+              <Typography
+                variant="h6"
+                className="navLinkObject"
+                style={{ marginRight: "5%" }}
+              >
+                {" "}
+                Contact
+              </Typography>
             </div>
           </Toolbar>
         </AppBar>
