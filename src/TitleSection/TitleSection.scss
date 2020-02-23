@@ -12,4 +12,13 @@
     margin: 1% 40% 0 40%;
     display: flex;
     justify-content: space-around;
+    p {
+        padding: 0 10% 0 0;
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: none;
+    }
 }
