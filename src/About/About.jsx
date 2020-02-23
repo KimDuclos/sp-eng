@@ -1,10 +1,10 @@
 import React from "react";
-import "./AboutSection.scss";
+import "./About.scss";
 
 const AboutSection = () => {
   return (
     <>
-      <div className="aboutTitle">About Storm Peak Engineering</div>
+      <div className="aboutTitle" id="about">About Storm Peak Engineering</div>
       <div className="aboutContent">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mollis
         est a nunc vehicula, et vehicula diam pulvinar. Suspendisse viverra

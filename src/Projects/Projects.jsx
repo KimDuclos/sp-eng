@@ -1,10 +1,10 @@
 import React from "react";
-import "./ProjectsSection.scss";
+import "./Projects.scss";
 
 const ProjectSection = () => {
   return (
     <>
-      <div className="projectContent">
+      <div className="projectContent" id="projects">
         <div className="leftProjectContent">
           <div className="projectTitle">This is muh Project</div>
           <div className="projectDescription">

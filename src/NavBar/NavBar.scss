@@ -1,12 +1,19 @@
 img {
-    width: 5%;
+  width: 5%;
 }
 
 .navLinks {
-    display: flex;
-    margin-left: 55%;
+  display: flex;
+  margin-left: 55%;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+      color: gray;
+  }
 }
 
 .navLinkObject {
-    margin: 0 10% 0 10%;
+  margin: 0 10% 0 10%;
 }

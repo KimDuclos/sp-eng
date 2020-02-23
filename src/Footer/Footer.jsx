@@ -11,7 +11,7 @@ const Footer = () => {
         <a hreft="#">Contact</a>
       </div>
       <div className="copyright">
-        Copyright © 2017 Storm Peak Consulting All Rights Reserved.
+        Copyright © 2020 Storm Peak Consulting All Rights Reserved.
       </div>
     </>
   );

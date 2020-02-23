@@ -6,9 +6,10 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
-import Box from "@material-ui/core/Box";
-import Container from "@material-ui/core/Container";
+// import Box from "@material-ui/core/Box";
+// import Container from "@material-ui/core/Container";
 import Slide from "@material-ui/core/Slide";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function HideOnScroll(props) {
   const { children, window } = props;
@@ -43,6 +44,7 @@ export default function NavBar(props) {
             <img src="stormPeakLogo.png" alt="logo" className="logo" />
             <Typography variant="h4">Storm Peak Engineering</Typography>
             <div className="navLinks">
+            <AnchorLink href="#about">
               <Typography
                 variant="h6"
                 className="navLinkObject"
@@ -51,6 +53,8 @@ export default function NavBar(props) {
                 {" "}
                 About
               </Typography>
+              </AnchorLink>
+              <AnchorLink href="#projects">
               <Typography
                 variant="h6"
                 className="navLinkObject"
@@ -59,14 +63,17 @@ export default function NavBar(props) {
                 {" "}
                 Projects
               </Typography>
+              </AnchorLink>
+              <AnchorLink href="#contact">
               <Typography
                 variant="h6"
                 className="navLinkObject"
                 style={{ marginRight: "5%" }}
               >
                 {" "}
-                Contact
+                Services
               </Typography>
+              </AnchorLink>
             </div>
           </Toolbar>
         </AppBar>
