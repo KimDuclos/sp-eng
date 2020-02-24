@@ -39,7 +39,7 @@ export default function NavBar(props) {
     <React.Fragment>
       <CssBaseline />
       <HideOnScroll {...props}>
-        <AppBar style={{ backgroundColor: "lightgray" }}>
+        <AppBar style={{ backgroundColor: "lightgray" }} id="home">
           <Toolbar>
             <img src="stormPeakLogo.png" alt="logo" className="logo" />
             <Typography variant="h4">Storm Peak Engineering</Typography>
