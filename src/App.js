@@ -4,7 +4,8 @@ import './App.css';
 import NavBar from "./NavBar/NavBar.jsx"
 import Title from "./Title/Title.jsx"
 import About from "./About/About.jsx";
-import Project from "./Projects/Projects.jsx";
+import Projects from "./Projects/Projects.jsx";
+import Services from "./Services/Services.jsx";
 import Footer from "./Footer/Footer.jsx";
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
      <NavBar />
      <Title />
      <About />
-     <Project />
+     <Projects />
+     <Services />
      <Footer />
     </div>
   );

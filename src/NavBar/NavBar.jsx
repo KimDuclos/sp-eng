@@ -64,7 +64,7 @@ export default function NavBar(props) {
                 Projects
               </Typography>
               </AnchorLink>
-              <AnchorLink href="#contact">
+              <AnchorLink href="#services">
               <Typography
                 variant="h6"
                 className="navLinkObject"
