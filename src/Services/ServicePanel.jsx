@@ -3,7 +3,7 @@ import "./ServicePanel.scss";
 
 const ServicePanel = (props) => {
   return (
-    <div class="grow" style={{ backgroundColor: "lightGray" }}>
+    <div className="grow" style={{ backgroundColor: "lightGray" }}>
       <h2>{props.serviceTitle}</h2>
       <p>
         {props.serviceDescription}

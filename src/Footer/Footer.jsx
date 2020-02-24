@@ -4,7 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Footer = () => {
   return (
-    <>
+    <div className="footer">
       <div className="footerNavLinks">
         <AnchorLink href="#home">
           <p>Home</p>
@@ -22,7 +22,7 @@ const Footer = () => {
       <div className="#copyright">
         Copyright © 2020 Storm Peak Consulting All Rights Reserved.
       </div>
-    </>
+    </div>
   );
 };
 

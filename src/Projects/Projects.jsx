@@ -3,8 +3,8 @@ import "./Projects.scss";
 
 const ProjectSection = () => {
   return (
-    <>
-      <div className="projectContent" id="projects">
+    <div id="projects">
+      <div className="projectContent">
         <div className="leftProjectContent">
           <div className="projectTitle">This is muh Project</div>
           <div className="projectDescription">
@@ -20,7 +20,7 @@ const ProjectSection = () => {
           <img src="projectImage.jpg" alt="project img" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
