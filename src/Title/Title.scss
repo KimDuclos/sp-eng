@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
 
-
+.titleBox {
+    height: 400px;
+    margin: 15% 0 0 0;
+  img {
+      width: auto;
+      height: auto;
+  }
+}
 
 .title {
-    margin: 15% 0 0 0;
+    // margin: 15% 0 0 0;
     font-size: 64px;
     font-family: 'Abril Fatface', ;
 }
