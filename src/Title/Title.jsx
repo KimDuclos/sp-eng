@@ -10,6 +10,7 @@ import EmailIcon from "@material-ui/icons/Email";
 const TitleSection = () => {
   return (
     <>
+      <div id="homeFooter"></div>
       <div className="title">Storm Peak Engineering</div>
       <div className="description">Description of your business goes here</div>
       <div className="socialButtons">
@@ -29,6 +30,7 @@ const TitleSection = () => {
           socialIcon={<EmailIcon />}
         />
       </div>
+      <div id="aboutFooter"></div>
     </>
   );
 };

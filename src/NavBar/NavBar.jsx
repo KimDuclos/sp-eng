@@ -42,37 +42,27 @@ export default function NavBar(props) {
         <AppBar style={{ backgroundColor: "lightgray" }} id="home">
           <Toolbar>
             <img src="stormPeakLogo.png" alt="logo" className="logo" />
-            <Typography variant="h4">Storm Peak Engineering</Typography>
+            <Typography variant="h4" class="navTitle">
+              Storm Peak Engineering
+            </Typography>
             <div className="navLinks">
-            <AnchorLink href="#about">
-              <Typography
-                variant="h6"
-                className="navLinkObject"
-                style={{ marginRight: "5%" }}
-              >
-                {" "}
-                About
-              </Typography>
+              <AnchorLink href="#about" style={{ marginRight: "10%" }}>
+                <Typography variant="h6" className="navLinkObject">
+                  {" "}
+                  About
+                </Typography>
               </AnchorLink>
-              <AnchorLink href="#projects">
-              <Typography
-                variant="h6"
-                className="navLinkObject"
-                style={{ marginRight: "5%" }}
-              >
-                {" "}
-                Projects
-              </Typography>
+              <AnchorLink href="#projects" style={{ marginRight: "10%" }}>
+                <Typography variant="h6" className="navLinkObject">
+                  {" "}
+                  Projects
+                </Typography>
               </AnchorLink>
-              <AnchorLink href="#services">
-              <Typography
-                variant="h6"
-                className="navLinkObject"
-                style={{ marginRight: "5%" }}
-              >
-                {" "}
-                Services
-              </Typography>
+              <AnchorLink href="#services" style={{ marginRight: "10%" }}>
+                <Typography variant="h6" className="navLinkObject">
+                  {" "}
+                  Services
+                </Typography>
               </AnchorLink>
             </div>
           </Toolbar>

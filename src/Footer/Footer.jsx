@@ -6,17 +6,17 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footerNavLinks">
-        <AnchorLink href="#home">
+        <AnchorLink href="#homeFooter">
           <p>Home</p>
         </AnchorLink>
-        <AnchorLink href="#about">
+        <AnchorLink href="#aboutFooter">
           <p>About</p>
         </AnchorLink>
-        <AnchorLink href="#projects">
-          <p>projects</p>
+        <AnchorLink href="#projectsFooter">
+          <p>Projects</p>
         </AnchorLink>
-        <AnchorLink href="#services">
-          <p>services</p>
+        <AnchorLink href="#servicesFooter">
+          <p>Services</p>
         </AnchorLink>
       </div>
       <div className="#copyright">

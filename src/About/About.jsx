@@ -28,6 +28,8 @@ const AboutSection = () => {
         vestibulum. Aliquam quis purus vel magna fermentum auctor. Sed sodales
         nec sem id scelerisque.
       </div>
+            <div id="projectsFooter"></div>
+
     </>
   );
 };
