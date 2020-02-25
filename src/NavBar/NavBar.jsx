@@ -25,7 +25,7 @@ function HideOnScroll(props) {
   );
 }
 
-HideOnScroll.propTypes = {
+HideOnScroll.propTypes = { 
   children: PropTypes.element.isRequired,
   /**
    * Injected by the documentation to work in an iframe.
@@ -39,7 +39,7 @@ export default function NavBar(props) {
     <React.Fragment>
       <CssBaseline />
       <HideOnScroll {...props}>
-        <AppBar style={{ backgroundColor: "lightgray" }} id="home">
+        <AppBar style={{ backgroundColor: "#F9CA87" }} id="home">
           <Toolbar>
             <img src="stormPeakLogo.png" alt="logo" className="logo" />
             <Typography variant="h4" class="navTitle">
