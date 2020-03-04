@@ -1,26 +1,22 @@
 import React from "react";
 import "./Services.scss";
-import ServicePanel from ".//ServicePanel.jsx";
+import ServicePanel from "./ServicePanel.jsx";
 
 const Services = () => {
   return (
     <div className="services" id="services">
       <div className="servicesTitle">Services</div>
       <ServicePanel
-        serviceTitle="Front End"
-        serviceDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget ante ornare odio pharetra commodo. Nam felis ipsum, ultricies ac lacinia ut, vehicula sed ante. Cras tempus cursus libero, at porttitor nunc iaculis at. Sed vitae convallis mauris. Nunc a eros ullamcorper, elementum ante vel, ultricies massa. Duis bibendum lorem a commodo molestie. Ut ornare iaculis dignissim. Pellentesque vitae aliquet velit. Integer rhoncus aliquet congue. Morbi et sapien nec nisl dignissim tempor nec eget metus. Donec mi lectus, posuere nec aliquet sit amet, imperdiet at lorem. Curabitur iaculis commodo laoreet."
+        serviceTitle="Web Applications"
+        serviceDescription="Whether you need a full web application complete with a backend and frontend or just pieces of each, we can create responsive, reliable web applications for your project."
       />
       <ServicePanel
-        serviceTitle="IOT / APIs / Databases"
-        serviceDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget ante ornare odio pharetra commodo. Nam felis ipsum, ultricies ac lacinia ut, vehicula sed ante. Cras tempus cursus libero, at porttitor nunc iaculis at. Sed vitae convallis mauris. Nunc a eros ullamcorper, elementum ante vel, ultricies massa. Duis bibendum lorem a commodo molestie. Ut ornare iaculis dignissim. Pellentesque vitae aliquet velit. Integer rhoncus aliquet congue. Morbi et sapien nec nisl dignissim tempor nec eget metus. Donec mi lectus, posuere nec aliquet sit amet, imperdiet at lorem. Curabitur iaculis commodo laoreet."
+        serviceTitle="Embedded Systems and IoT"
+        serviceDescription="We’re experts on embedded systems and IoT applications. Anything from 8-bit microcontrollers to application processors running custom Linux distributions is in our wheelhouse."
       />
       <ServicePanel
-        serviceTitle="Microcontrollers / Embedded Linux"
-        serviceDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget ante ornare odio pharetra commodo. Nam felis ipsum, ultricies ac lacinia ut, vehicula sed ante. Cras tempus cursus libero, at porttitor nunc iaculis at. Sed vitae convallis mauris. Nunc a eros ullamcorper, elementum ante vel, ultricies massa. Duis bibendum lorem a commodo molestie. Ut ornare iaculis dignissim. Pellentesque vitae aliquet velit. Integer rhoncus aliquet congue. Morbi et sapien nec nisl dignissim tempor nec eget metus. Donec mi lectus, posuere nec aliquet sit amet, imperdiet at lorem. Curabitur iaculis commodo laoreet."
-      />
-      <ServicePanel
-        serviceTitle="Yocto Hardware / PCBs (low-speed prototyping)"
-        serviceDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget ante ornare odio pharetra commodo. Nam felis ipsum, ultricies ac lacinia ut, vehicula sed ante. Cras tempus cursus libero, at porttitor nunc iaculis at. Sed vitae convallis mauris. Nunc a eros ullamcorper, elementum ante vel, ultricies massa. Duis bibendum lorem a commodo molestie. Ut ornare iaculis dignissim. Pellentesque vitae aliquet velit. Integer rhoncus aliquet congue. Morbi et sapien nec nisl dignissim tempor nec eget metus. Donec mi lectus, posuere nec aliquet sit amet, imperdiet at lorem. Curabitur iaculis commodo laoreet."
+        serviceTitle="Hardware Prototyping"
+        serviceDescription="Got an idea for a project that needs hardware? We can help your ideas become proof-of-concepts."
       />
       <div id="aboutServices"></div>
     </div>
