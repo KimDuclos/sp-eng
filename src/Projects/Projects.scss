@@ -1,17 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+$break-mobile: 500px;
+$break-tablet: 800px;
+
 .projectContent {
   margin: 18% 0 0 12%;
   display: flex;
   justify-content: space-evenly;
   justify-content: center;
+  @media screen and (max-width: $break-mobile) {
+    margin: 20% 0 0 0;
+  }
   .leftProjectContent {
     width: 35%;
+    @media screen and (max-width: $break-mobile) {
+      width: 50%;
+    }
     .projectTitle {
       font-size: 34px;
       text-align: left;
       font-family: 'Roboto Slab', ;
+      @media screen and (max-width: $break-mobile) {
+        font-size: 24px;
+      }
     }
     .projectDescription {
       font-size: 16px;

@@ -1,3 +1,6 @@
+$break-mobile: 500px;
+$break-tablet: 800px;
+
 .grow {
     padding: 5px 5px 5px 5px;
     border-radius: 10px;
@@ -8,6 +11,13 @@
     -webkit-transition: height 0.5s;
     text-align: center;
     overflow: hidden;
+    @media screen and (max-width: $break-mobile) {
+      width: 70%;
+      height: 39px;
+    }
+    h2 {
+      margin: 0 0 2% 0;
+    }
   }
   .grow:hover {
     height: 145px;

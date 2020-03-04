@@ -10,10 +10,7 @@ const ProjectSection = () => {
           <div className="projectDescription">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             mollis est a nunc vehicula, et vehicula diam pulvinar. Suspendisse
-            viverra felis at cursus finibus. Aliquam ullamcorper, sapien vitae
-            vulputate condimentum, erat tortor dapibus elit, eget tempus felis
-            diam a massa. Integer blandit commodo erat eget gravida. Interdum et
-            malesuada fames ac ante ipsum primis in faucibus.
+            viverra felis at cursus finibus.
           </div>
         </div>
         <div className="rightProjectContent">

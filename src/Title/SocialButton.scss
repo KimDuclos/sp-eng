@@ -1,4 +1,13 @@
+$break-mobile: 500px;
+$break-mobile: 800px;
+
+.socialButton {
+  @media screen and (max-width: $break-mobile) {
+    margin-right: 10%;
+  }
+}
+
 .socialBtnContent {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }

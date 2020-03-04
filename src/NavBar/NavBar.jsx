@@ -40,9 +40,9 @@ export default function NavBar(props) {
       <CssBaseline />
       <HideOnScroll {...props}>
         <AppBar style={{ backgroundColor: "#F9CA87" }} id="home">
-          <Toolbar>
+          <Toolbar className="navContent">
             <img src="stormPeakLogo.png" alt="logo" className="logo" />
-            <Typography variant="h4" class="navTitle">
+            <Typography variant="h4" className="navTitle">
               Storm Peak Engineering
             </Typography>
             <div className="navLinks">

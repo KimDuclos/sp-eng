@@ -1,3 +1,6 @@
+$break-mobile: 500px;
+$break-tablet: 800px;
+
 .services {
   display: flex;
   flex-direction: column;
@@ -6,6 +9,9 @@
   width: 100%;
   height: 400px;
   overflow: hidden;
+  @media screen and (max-width: $break-mobile) {
+    height: auto;
+  }
   .servicesTitle {
     font-size: 34px;
   }

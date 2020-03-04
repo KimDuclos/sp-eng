@@ -1,7 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
+
+$break-mobile: 500px;
+$break-tablet: 800px;
+
+.navContent {
+  @media screen and (max-width: $break-mobile) {
+    display: flex !important;
+    justify-content: center;
+    padding-right: 8% !important;
+  }
+}
 
 .logo {
   margin-left: 4%;
+  @media screen and (max-width: $break-mobile) {
+    margin-left: 0%;
+  }
 }
 
 img {
@@ -9,8 +23,14 @@ img {
 }
 
 .navTitle {
-  font-family: 'Abril Fatface';
+  font-family: "Abril Fatface";
   font-size: 20px;
+}
+
+.navLinks {
+  @media screen and (max-width: $break-mobile) {
+    display: none !important;
+  }
 }
 
 .navLinks {
@@ -22,7 +42,7 @@ img {
     padding: 0 20% 0 0;
   }
   a:hover {
-      color: gray;
+    color: gray;
   }
 }
 

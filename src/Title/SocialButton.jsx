@@ -7,10 +7,12 @@ const SocialButton = props => {
   return (
     <Link href={props.socialLink} target="blank">
       <Button
+        className="socialButton"
         variant="contained"
         style={{ backgroundColor: "#F9CA87", width: "125px" }}
       >
-        <p style={{paddingRight: "10%"}}>{props.socialName}</p> {props.socialIcon}
+        <p style={{ paddingRight: "10%" }}>{props.socialName}</p>{" "}
+        {props.socialIcon}
       </Button>
     </Link>
   );

@@ -12,7 +12,7 @@ const AboutSection = () => {
         a true full-stack consulting company with the capability to handle
         projects starting at the hardware on up to a responsive web application.
         We are ready to fit into your existing product or build something
-        completely new. Contact us to find out what we can build for you!{" "}
+        completely new. Contact us to find out what we can build for you!
       </div>
 
       <div id="projectsFooter"></div>
