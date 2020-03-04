@@ -1,48 +1,56 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
 
 $break-mobile: 500px;
 $break-tablet: 800px;
 
 .titleBox {
-    height: 400px;
-    margin: 15% 0 0 0;
-    @media screen and (max-width: $break-mobile) {
-        height: auto;
-        margin: 18% 0 18% 0;
-    }
+  height: 400px;
+  margin: 15% 0 0 0;
+  @media screen and (max-width: $break-mobile) {
+    height: auto;
+    margin: 18% 0 18% 0;
+  }
+  @media screen and (max-width: $break-tablet) {
+    height: auto;
+    margin: 18% 0 18% 0;
+  }
   img {
-      width: auto;
-      height: auto;
+    width: auto;
+    height: auto;
   }
 }
 
 .title {
-    // margin: 15% 0 0 0;
-    font-size: 64px;
-    font-family: 'Abril Fatface', ;
-    @media screen and (max-width: $break-mobile) {
-        font-size: 40px;
-    }
+  // margin: 15% 0 0 0;
+  font-size: 64px;
+  font-family: "Abril Fatface";
+  @media screen and (max-width: $break-mobile) {
+    font-size: 40px;
+  }
 }
 
 .description {
-    margin: 1% 0 0 0;
-    font-size: 24px;
+  margin: 1% 0 0 0;
+  font-size: 24px;
 }
 
 .socialButtons {
-    margin: 1% 38% 0 38%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    @media screen and (max-width: $break-mobile)  {
-        justify-content: space-around;
-        margin: 5% auto 0% auto;
-    }
-    a {
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: none;
-    }
+  margin: 1% 38% 0 38%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: $break-mobile) {
+    justify-content: space-around;
+    margin: 5% auto 0% auto;
+  }
+  @media screen and (max-width: $break-tablet) {
+    margin: 2% 25% 0 25%;
+    justify-content: space-around;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
 }

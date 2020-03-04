@@ -13,6 +13,9 @@ $break-tablet: 800px;
     margin: 5% 0 0 0;
     font-size: 24px;;
   }
+  @media screen and (max-width: $break-tablet) {
+    margin: 0% 0 0 0;
+  }
 }
 
 .aboutContent {

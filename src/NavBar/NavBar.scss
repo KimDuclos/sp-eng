@@ -16,30 +16,39 @@ $break-tablet: 800px;
   @media screen and (max-width: $break-mobile) {
     margin-left: 0%;
   }
+  @media screen and (max-width: $break-tablet) {
+    margin-left: 0%;
+  }
 }
 
 img {
-  width: 5%;
+  width: 10%;
 }
 
 .navTitle {
   font-family: "Abril Fatface";
   font-size: 20px;
-}
-
-.navLinks {
-  @media screen and (max-width: $break-mobile) {
-    display: none !important;
+  @media screen and (max-width: $break-tablet) {
+    width: auto;
   }
 }
 
 .navLinks {
   display: flex;
   margin-left: 55%;
+  @media screen and (max-width: $break-mobile) {
+    display: none !important;
+  }
+  @media screen and (max-width: $break-tablet) {
+    margin-left: 15% !important;
+  }
   a {
     text-decoration: none;
     color: white;
     padding: 0 20% 0 0;
+    @media screen and (max-width: $break-tablet) {
+      padding: 0 1% 0 0;
+    }
   }
   a:hover {
     color: gray;

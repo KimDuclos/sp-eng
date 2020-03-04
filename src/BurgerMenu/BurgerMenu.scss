@@ -1,0 +1,8 @@
+$break-mobile: 500px;
+$break-tablet: 800px;
+
+.burgerMenu {
+  @media screen and (max-width: $break-tablet) {
+    display: none;
+  }
+}
