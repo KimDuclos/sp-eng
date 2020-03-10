@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  /* background-image: url("/images/mountainBG.jpg"); */
+  background-image: url("/images/mountainBG.jpg");
+  background-repeat: no-repeat;
 }
 
 .App-logo {

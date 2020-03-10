@@ -22,7 +22,7 @@ $break-tablet: 800px;
 }
 
 img {
-  width: 10%;
+  width: 5%;
 }
 
 .navTitle {
@@ -35,7 +35,7 @@ img {
 
 .navLinks {
   display: flex;
-  margin-left: 55%;
+  margin-left: 45%;
   @media screen and (max-width: $break-mobile) {
     display: none !important;
   }

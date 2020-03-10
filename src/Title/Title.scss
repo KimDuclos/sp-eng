@@ -5,7 +5,7 @@ $break-tablet: 800px;
 
 .titleBox {
   height: 400px;
-  margin: 15% 0 0 0;
+  margin: 10% 0 0 0;
   @media screen and (max-width: $break-mobile) {
     height: auto;
     margin: 18% 0 18% 0;
@@ -13,10 +13,6 @@ $break-tablet: 800px;
   @media screen and (max-width: $break-tablet) {
     height: auto;
     margin: 18% 0 18% 0;
-  }
-  img {
-    width: auto;
-    height: auto;
   }
 }
 

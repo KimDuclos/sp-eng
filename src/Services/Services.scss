@@ -10,12 +10,18 @@ $break-tablet: 800px;
   height: 400px;
   overflow: hidden;
   @media screen and (max-width: $break-mobile) {
+    margin: 10% 0 0 0;
     height: auto;
   }
   @media screen and (max-width: $break-tablet) {
     height: auto;
+    margin: 80% 0 0 0 0;
   }
   .servicesTitle {
     font-size: 34px;
+    margin: 0% 0 0 0;
+    @media screen and (max-width: $break-mobile) {
+      margin: 0% 0 0 0;
+    }
   }
 }

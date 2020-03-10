@@ -5,7 +5,7 @@ import NavBar from "./NavBar/NavBar.jsx";
 import BurgerMenu from "./BurgerMenu/BurgerMenu.jsx";
 import Title from "./Title/Title.jsx";
 import About from "./About/About.jsx";
-import Projects from "./Projects/Projects.jsx";
+// import Projects from "./Projects/Projects.jsx";
 import Services from "./Services/Services.jsx";
 import Footer from "./Footer/Footer.jsx";
 
@@ -16,7 +16,7 @@ function App() {
       <BurgerMenu />
       <Title />
       <About />
-      <Projects />
+      {/* <Projects /> */}
       <Services />
       <Footer />
     </div>
