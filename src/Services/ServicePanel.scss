@@ -5,7 +5,7 @@ $break-tablet: 800px;
     padding: 5px 5px 5px 5px;
     border-radius: 10px;
     height: 49px;
-    width: 50%;
+    width: 95%;
     margin: 5px 1% 5px 1%;
     transition: height 0.5s;
     -webkit-transition: height 0.5s;
@@ -21,7 +21,10 @@ $break-tablet: 800px;
     h2 {
       margin: 0 0 2% 0;
     }
+    img {
+      width: 125px;
+    }
   }
   .grow:hover {
-    height: 145px;
+    height: 245px;
   }

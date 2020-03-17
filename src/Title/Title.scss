@@ -31,7 +31,8 @@ $break-tablet: 800px;
 }
 
 .socialButtons {
-  margin: 1% 38% 0 38%;
+  margin: 1% auto 0 auto;
+  width: 125px;
   display: flex;
   justify-content: space-between;
   align-items: center;
