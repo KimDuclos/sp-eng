@@ -2,29 +2,32 @@ $break-mobile: 500px;
 $break-tablet: 800px;
 
 .grow {
-    padding: 5px 5px 5px 5px;
-    border-radius: 10px;
-    height: 49px;
-    width: 95%;
-    margin: 5px 1% 5px 1%;
-    transition: height 0.5s;
-    -webkit-transition: height 0.5s;
-    text-align: center;
-    overflow: hidden;
-    @media screen and (max-width: $break-mobile) {
-      width: 70%;
-      height: 39px;
-    }
-    @media screen and (max-width: $break-tablet) {
-      height: 36px;
-    }
-    h2 {
-      margin: 0 0 2% 0;
-    }
-    img {
-      width: 125px;
-    }
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  height: 49px;
+  width: 95%;
+  margin: 5px 1% 5px 1%;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  text-align: center;
+  overflow: hidden;
+  @media screen and (max-width: $break-mobile) {
+    width: 70%;
+    height: 39px;
   }
-  .grow:hover {
-    height: 245px;
+  @media screen and (max-width: $break-tablet) {
+    height: 36px;
   }
+  h2 {
+    margin: 0 0 2% 0;
+  }
+  img {
+    width: 125px;
+  }
+  .serviceDescription {
+    font-size: 24em;
+  }
+}
+.grow:hover {
+  height: 245px;
+}
