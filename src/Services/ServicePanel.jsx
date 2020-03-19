@@ -1,5 +1,6 @@
 import React from "react";
 import "./ServicePanel.scss";
+import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 
 const ServicePanel = props => {
   return (
@@ -38,6 +39,7 @@ const ServicePanel = props => {
           )}
         </div>
       </div>
+      <KeyboardArrowDownIcon />
       <div className="serviceDescription">
         <p>{props.serviceDescription}</p>
       </div>
