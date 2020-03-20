@@ -21,7 +21,7 @@ const ServicePanel = props => {
               src={props.serviceIcon2}
               alt="service icon"
               className="softwareIcon2"
-              style={{ height: props.serviceIcon2Height, marginTop: props.serviceIcon2marginTop }}
+              style={{ height: props.serviceIcon2Height, margin: props.serviceIcon2margin }}
             />
           )}
           {props.serviceIcon3 && (
@@ -29,7 +29,7 @@ const ServicePanel = props => {
               src={props.serviceIcon3}
               alt="service icon"
               className="softwareIcon3"
-              style={{ height: props.serviceIcon3Height }}
+              style={{ height: props.serviceIcon3Height, margin: props.serviceIcon3margin }}
             />
           )}
           {props.serviceIcon3 && (

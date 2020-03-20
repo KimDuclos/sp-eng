@@ -26,7 +26,8 @@ const Services = () => {
         distributions is in our wheelhouse."
         serviceIcon2Height="100%"
         serviceIcon3Height="100%"
-        serviceIcont2marginTop="500px"
+        serviceIcon2margin="8% 2% 0 2%"
+        serviceIcon3margin="8% 2% 0 2%"
       />
       <ServicePanel
         serviceTitle="Hardware Prototyping"
