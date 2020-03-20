@@ -4,7 +4,7 @@ import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 
 const ServicePanel = props => {
   return (
-    <div className="grow" style={{ backgroundColor: "#EBF095" }}>
+    <div className="grow" style={{ backgroundColor: "#EBF095", margin: "2% auto 2% auto" }}>
       <div className="titleAndIcons">
         <div className="serviceTitle">
           <h2>{props.serviceTitle}</h2>
@@ -21,6 +21,7 @@ const ServicePanel = props => {
               src={props.serviceIcon2}
               alt="service icon"
               className="softwareIcon2"
+              style={{ height: props.serviceIcon2Height, marginTop: props.serviceIcon2marginTop }}
             />
           )}
           {props.serviceIcon3 && (
@@ -28,6 +29,7 @@ const ServicePanel = props => {
               src={props.serviceIcon3}
               alt="service icon"
               className="softwareIcon3"
+              style={{ height: props.serviceIcon3Height }}
             />
           )}
           {props.serviceIcon3 && (

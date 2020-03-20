@@ -24,6 +24,9 @@ const Services = () => {
         serviceDescription="We’re experts on embedded systems and IoT applications. 
         Anything from 8-bit microcontrollers to application processors running custom Linux 
         distributions is in our wheelhouse."
+        serviceIcon2Height="100%"
+        serviceIcon3Height="100%"
+        serviceIcont2marginTop="500px"
       />
       <ServicePanel
         serviceTitle="Hardware Prototyping"

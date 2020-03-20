@@ -4,7 +4,7 @@ $break-tablet: 800px;
 .grow {
   padding: 5px 5px 5px 5px;
   border-radius: 10px;
-  height: 220px;
+  height: 260px;
   width: 95%;
   margin: 5px 1% 5px 1%;
   transition: height 0.5s;
@@ -18,16 +18,25 @@ $break-tablet: 800px;
   @media screen and (max-width: $break-tablet) {
     height: 36px;
   }
+  .serviceTitle {
+    font-size: 24px;
+  }
+  .serviceIcons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 30% 0 30%;
+  }
   h2 {
     margin: 0 0 2% 0;
   }
   img {
     width: 125px;
   }
-  // .serviceDescription {
-  //   font-size: 24em;
-  // }
+  .serviceDescription {
+    font-size: 24px;
+    margin: 2% 25% 0 25%;
+  }
 }
 .grow:hover {
-  height: 345px;
+  height: 375px;
 }
