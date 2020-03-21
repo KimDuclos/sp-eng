@@ -12,7 +12,7 @@ const TitleSection = () => {
     <div className="titleBox">
       <div id="homeFooter"></div>
       <div className="title">Storm Peak Engineering</div>
-      <div className="description">Description of your business goes here</div>
+      <div className="description">Embedded and Full-Stack Web Consulting</div>
       <div className="socialButtons">
         {/* <SocialButton
           socialLink="https://www.linkedin.com/in/sean-donohue-7340842a/"
