@@ -14,6 +14,7 @@ const Services = () => {
         serviceIcon4="/images/databaseLogo.svg"
         serviceDescription="Whether you need a full web application complete with a backend and frontend or just pieces of each, 
         we can create responsive, reliable web applications for your project."
+        serviceDescriptionMargin="0 25% 2% 25%"
       />
       <ServicePanel
         serviceTitle="Embedded Systems and IoT"
@@ -28,6 +29,7 @@ const Services = () => {
         serviceIcon3Height="100%"
         serviceIcon2margin="8% 2% 0 2%"
         serviceIcon3margin="8% 2% 0 2%"
+        serviceDescriptionMargin="0 25% 2% 25%"
       />
       <ServicePanel
         serviceTitle="Hardware Prototyping"
@@ -35,6 +37,7 @@ const Services = () => {
         serviceIcon1Width="325px"
         serviceDescription="Got an idea for a project that needs hardware? 
         We can help your ideas become proof-of-concepts."
+        serviceDescriptionMargin="0 25% 2% 25%"
       />
       <div id="aboutServices"></div>
     </div>
