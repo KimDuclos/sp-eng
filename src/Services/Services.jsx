@@ -34,7 +34,7 @@ const Services = () => {
       <ServicePanel
         serviceTitle="Hardware Prototyping"
         serviceIcon1="/images/pcpSchematic.svg"
-        serviceIcon1Width="325px"
+        serviceIcon1Width="36%"
         serviceDescription="Got an idea for a project that needs hardware? 
         We can help your ideas become proof-of-concepts."
         serviceDescriptionMargin="0 25% 2% 25%"

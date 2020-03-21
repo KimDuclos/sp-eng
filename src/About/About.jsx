@@ -3,8 +3,8 @@ import "./About.scss";
 
 const AboutSection = () => {
   return (
-    <>
-      <div className="aboutTitle" id="about">
+    <div className="aboutBlock" id="about">
+      <div className="aboutTitle">
         About Storm Peak Engineering
       </div>
       <div className="aboutContent">
@@ -16,7 +16,7 @@ const AboutSection = () => {
       </div>
 
       <div id="projectsFooter"></div>
-    </>
+    </div>
   );
 };
 

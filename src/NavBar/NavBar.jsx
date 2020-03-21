@@ -51,11 +51,11 @@ export default function NavBar(props) {
                   About
                 </Typography>
               </AnchorLink>
-              <AnchorLink href="#projects" style={{ marginRight: "10%" }}>
+              {/* <AnchorLink href="#projects" style={{ marginRight: "10%" }}>
                 <Typography variant="h6" className="navLinkObject">
                   Projects
                 </Typography>
-              </AnchorLink>
+              </AnchorLink> */}
               <AnchorLink href="#services" style={{ marginRight: "10%" }}>
                 <Typography variant="h6" className="navLinkObject">
                   Services
