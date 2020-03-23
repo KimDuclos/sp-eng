@@ -1,8 +1,18 @@
 $break-mobile: 500px;
 $break-tablet: 800px;
 
-.hamburgerMenu {
-    @media screen and (max-width: $break-mobile) {
+// .MuiToobar-regular {
+//     height: 0px !important;
+// }
+
+.stormPeakMobileLogo {
+    @media screen and (min-width: $break-tablet) {
+        display: none;
+    }
+}
+
+.hamburgerMenuIcon {
+    @media screen and (min-width: $break-tablet) {
         display: none;
     }
 }

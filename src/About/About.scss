@@ -11,6 +11,9 @@ $break-tablet: 800px;
   border-radius: 8px;
   margin: 20% auto 0 auto;
   padding: 2% 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .aboutTitle {
@@ -19,8 +22,8 @@ $break-tablet: 800px;
   margin: 0 0 0 0;
   font-family: "Roboto Slab";
   @media screen and (max-width: $break-mobile) {
-    margin: 5% 0 0 0;
-    font-size: 24px;;
+    margin: 5% 0 5% 0;
+    font-size: 24px;
   }
   @media screen and (max-width: $break-tablet) {
     margin: 0% 0 0 0;
@@ -28,15 +31,14 @@ $break-tablet: 800px;
 }
 
 .aboutContent {
-  margin: 2% 20% 0 20%;
   font-size: 20px;
   font-family: "Roboto";
   @media screen and (max-width: $break-mobile) {
     width: 90%;
     margin: 0 auto 0 auto;
+    font-size: 16px;
   }
   @media screen and (max-width: $break-tablet) {
-    margin: 0 0 30% 0;
     padding: 0 5% 0 5%;
   }
 }

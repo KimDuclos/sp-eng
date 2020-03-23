@@ -2,8 +2,9 @@ $break-mobile: 500px;
 $break-mobile: 800px;
 
 .socialButton {
+  margin: 0 auto;
   @media screen and (max-width: $break-mobile) {
-    margin-right: 10%;
+    margin: 0 auto;
   }
 }
 
