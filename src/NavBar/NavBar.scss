@@ -3,6 +3,12 @@
 $break-mobile: 500px;
 $break-tablet: 800px;
 
+#home {
+  @media screen and (max-width: $break-mobile) {
+    display: none;
+  }
+}
+
 .navContent {
   @media screen and (max-width: $break-mobile) {
     display: flex !important;
