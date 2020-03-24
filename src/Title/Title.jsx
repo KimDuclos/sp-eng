@@ -25,7 +25,8 @@ const TitleSection = () => {
           socialIcon={<GitHubIcon />}
         /> */}
         <SocialButton
-          socialLink="mailto:sdonohue331@gmail.com?subject=Hello from your portfolio page"
+          // socialLink={<Mailto email}
+          email="sdonohue331@gmail.com"
           socialName="Email"
           socialIcon={<EmailIcon />}
         />
