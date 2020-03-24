@@ -12,9 +12,9 @@ const Footer = () => {
         <AnchorLink href="#aboutFooter">
           <p>About</p>
         </AnchorLink>
-        <AnchorLink href="#projectsFooter">
+        {/* <AnchorLink href="#projectsFooter">
           <p>Projects</p>
-        </AnchorLink>
+        </AnchorLink> */}
         <AnchorLink href="#servicesFooter">
           <p>Services</p>
         </AnchorLink>

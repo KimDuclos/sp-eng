@@ -8,10 +8,11 @@ import Popper from "@material-ui/core/Popper";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
 import { makeStyles } from "@material-ui/core/styles";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    height: "0px",
+    height: "0px"
   },
   paper: {
     marginRight: theme.spacing(2)
@@ -103,8 +104,22 @@ export default function MenuListComposition() {
                       id="menu-list-grow"
                       onKeyDown={handleListKeyDown}
                     >
-                      <MenuItem onClick={handleClose}>About</MenuItem>
-                      <MenuItem onClick={handleClose}>Services</MenuItem>
+                      <MenuItem onClick={handleClose}>
+                        <AnchorLink
+                          style={{ textDecoration: "none", color: "black" }}
+                          href="#about"
+                        >
+                          About
+                        </AnchorLink>
+                      </MenuItem>
+                      <MenuItem onClick={handleClose}>
+                        <AnchorLink
+                          style={{ textDecoration: "none", color: "black" }}
+                          href="#services"
+                        >
+                          Services
+                        </AnchorLink>
+                      </MenuItem>
                       {/* <MenuItem onClick={handleClose}>Logout</MenuItem> */}
                     </MenuList>
                   </ClickAwayListener>
