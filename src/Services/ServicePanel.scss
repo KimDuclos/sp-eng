@@ -16,10 +16,13 @@ $break-tablet: 800px;
     height: 39px;
   }
   @media screen and (max-width: $break-tablet) {
-    height: 36px;
+    height: 200px;
   }
   .serviceTitle {
     font-size: 24px;
+    @media screen and (max-width: $break-tablet) {
+      font-size: 14px;
+    }
   }
   .serviceIcons {
     display: flex;
@@ -35,8 +38,14 @@ $break-tablet: 800px;
   .serviceDescription {
     font-size: 24px;
     margin: 2% 25% 0 25%;
+    @media screen and (max-width: $break-tablet) {
+      font-size: 14px;
+    }
   }
 }
 .grow:hover {
   height: 395px;
+  @media screen and (max-width: $break-tablet) {
+    height: 315px;
+  }
 }
