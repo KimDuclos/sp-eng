@@ -10,7 +10,7 @@ $break-tablet: 800px;
   margin: 0 auto;
   border-radius: 8px;
   margin: 20% auto 0 auto;
-  padding: 2% 0;
+  padding: 2% 10%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,7 +23,7 @@ $break-tablet: 800px;
 .aboutTitle {
   font-size: 34px;
   color: black;
-  margin: 0 0 0 0;
+  margin: 0 0 3% 0;
   font-family: "Roboto Slab";
   @media screen and (max-width: $break-mobile) {
     margin: 5% 0 5% 0;
