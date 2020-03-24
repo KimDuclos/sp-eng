@@ -2,7 +2,7 @@ $break-mobile: 500px;
 $break-tablet: 800px;
 
 .socialButtons {
-  margin: 0 auto;
+  margin: 1% auto;
   @media screen and (max-width: $break-tablet) {
     margin: 2% 0 0 40%;
   }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 $break-mobile: 500px;
 $break-tablet: 800px;
 
@@ -21,6 +23,7 @@ $break-tablet: 800px;
   }
   .serviceTitle {
     font-size: 24px;
+    font-family: "Roboto", "Helvetica";
     @media screen and (max-width: $break-tablet) {
       font-size: 14px;
     }
