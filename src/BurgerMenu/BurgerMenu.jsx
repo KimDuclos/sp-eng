@@ -11,7 +11,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    display: "flex"
+    height: "0px",
   },
   paper: {
     marginRight: theme.spacing(2)
@@ -55,7 +55,7 @@ export default function MenuListComposition() {
   return (
     <div className="mobileNavBox">
       <img
-        scr="/images/stormPeakLogo.svg"
+        src="/images/stormPeakLogo.png"
         alt="sp logo"
         className="stormPeakMobileLogo"
       />

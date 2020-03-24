@@ -1,17 +1,25 @@
 $break-mobile: 500px;
 $break-tablet: 800px;
 
-// .MuiToobar-regular {
-//     height: 0px !important;
-// }
+.mobileNavBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 .stormPeakMobileLogo {
+    width: 150px;
+    display: flex;
+    align-self: center;
+    margin-left: 2.5%;
     @media screen and (min-width: $break-tablet) {
         display: none;
     }
 }
 
 .hamburgerMenuIcon {
+    width: 50px;
+    margin: 20% 0% 0 0;
     @media screen and (min-width: $break-tablet) {
         display: none;
     }
