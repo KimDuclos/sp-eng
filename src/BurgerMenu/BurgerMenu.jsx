@@ -79,7 +79,7 @@ export default function MenuListComposition() {
             <img
               src="/images/hamburgerMenu.png"
               alt="menu"
-              class="hamburgerMenuIcon"
+              className="hamburgerMenuIcon"
             />
           </Button>
           <Popper
