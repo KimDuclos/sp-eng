@@ -6,7 +6,7 @@ import Button from "@material-ui/core/Button";
 const SocialButton = props => {
   return (
     <>
-      <a href={"mailto:" + props.email}>
+      <a href={"mailto:contact@stormpeakeng.com"}>
         <Button
           className="socialButton"
           variant="contained"
